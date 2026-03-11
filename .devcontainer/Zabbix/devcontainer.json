@@ -11,7 +11,7 @@
     "80":   { "label": "Zabbix Web (HTTP)",  "onAutoForward": "openBrowser" }
   },
 
-  "postCreateCommand": "bash .devcontainer/zabbix-only/postCreate.sh",
-  "postStartCommand": "bash .devcontainer/zabbix-only/postStart.sh",
+  "postCreateCommand": "bash .devcontainer/Zabbix/postCreate.sh",
+  "postStartCommand": "bash .devcontainer/Zabbix/postStart.sh",
   "remoteUser": "vscode"
 }
