@@ -30,5 +30,7 @@ GitHub Codespaces are a great idea, but you are probably better off hosting your
 Repo → Codespace → /workspaces/repo → VS Code → docker compose up → Ports tab → Public URLs
 ```
 
-[Nautobot](https://github.com/mmorrow24work/codespaces-examples/blob/ae714f422b2fbcc9c362ab277241a08c6e01293a/Nautobot.md)
-[Zabbix](https://github.com/mmorrow24work/codespaces-examples/blob/80ecb4fdb8f4d9d52ad96f7ed07f04f6be861396/Zabbix.md) 
+# Codespaces Examples
+
+1. [Nautobot](https://github.com/mmorrow24work/codespaces-examples/blob/ae714f422b2fbcc9c362ab277241a08c6e01293a/Nautobot.md)
+2. [Zabbix](https://github.com/mmorrow24work/codespaces-examples/blob/80ecb4fdb8f4d9d52ad96f7ed07f04f6be861396/Zabbix.md) 
