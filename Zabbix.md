@@ -25,3 +25,5 @@ Key for network engineers: Zabbix delivers agentless monitoring across entire in
 3. Create your new Codespaces instance using the options shown in the screenshot below.
 4. From the vscode terminal we can open the Zabbix web UI and login ( defaults Admin / zabbix ).
 5. Lastly we can rename the Codespaces instance, or delete it when we are done etc.
+
+<img width="730" height="348" alt="image" src="https://github.com/user-attachments/assets/7e4ee42b-e44f-4797-a266-17cab8bcc9e5" />
