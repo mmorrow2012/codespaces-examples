@@ -1,0 +1,72 @@
+services:
+  server-db-init:
+    networks:
+      - digital-twin
+
+  proxy-db-init:
+    networks:
+      - digital-twin
+
+  zabbix-server:
+    networks:
+      - digital-twin
+
+  zabbix-proxy-sqlite3:
+    networks:
+      - digital-twin
+
+  zabbix-proxy-mysql:
+    networks:
+      - digital-twin
+
+  zabbix-web-apache-mysql:
+    networks:
+      - digital-twin
+
+  zabbix-web-nginx-mysql:
+    networks:
+      - digital-twin
+
+  zabbix-agent:
+    networks:
+      - digital-twin
+
+  zabbix-java-gateway:
+    networks:
+      - digital-twin
+
+  zabbix-snmptraps:
+    networks:
+      - digital-twin
+
+  zabbix-web-service:
+    networks:
+      - digital-twin
+
+  mysql-server:
+    networks:
+      - digital-twin
+
+  db-data-mysql:
+    networks:
+      - digital-twin
+
+  elasticsearch:
+    networks:
+      - digital-twin
+
+  selenium:
+    networks:
+      - digital-twin
+
+  selenium-chrome:
+    networks:
+      - digital-twin
+
+  selenium-firefox:
+    networks:
+      - digital-twin
+
+networks:
+  digital-twin:
+    external: true
