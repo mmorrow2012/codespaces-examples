@@ -1,0 +1,17 @@
+{
+  "name": "Zabbix 7.4",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+
+  "forwardPorts": [80],
+  "portsAttributes": {
+    "80":   { "label": "Zabbix Web (HTTP)",  "onAutoForward": "openBrowser" }
+  },
+
+  "postCreateCommand": "bash .devcontainer/zabbix-only/postCreate.sh",
+  "postStartCommand": "bash .devcontainer/zabbix-only/postStart.sh",
+  "remoteUser": "vscode"
+}
