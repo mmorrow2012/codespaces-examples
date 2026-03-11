@@ -28,3 +28,7 @@ Key for network engineers: Zabbix delivers agentless monitoring across entire in
 
 <img width="654" height="396" alt="image" src="https://github.com/user-attachments/assets/27dd4bc7-cb8c-47a7-bf9e-880de9688986" />
 <img width="730" height="348" alt="image" src="https://github.com/user-attachments/assets/7e4ee42b-e44f-4797-a266-17cab8bcc9e5" />
+<img width="995" height="313" alt="image" src="https://github.com/user-attachments/assets/049ced3f-2e95-4e33-bede-7a837daaa7e3" />
+<img width="1608" height="1188" alt="image" src="https://github.com/user-attachments/assets/65ba2349-a1ce-4b8e-8d1b-35b8b47edd6c" />
+
+
