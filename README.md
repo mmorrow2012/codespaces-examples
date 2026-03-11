@@ -12,6 +12,7 @@ After you start nautobot, we need to run `createsuperuser` from the vscode termi
 
 <img width="2566" height="1398" alt="image" src="https://github.com/user-attachments/assets/9d259763-4896-40b0-a67e-b7116e47c78c" />
 
+<img width="966" height="492" alt="image" src="https://github.com/user-attachments/assets/910246e5-39e3-4d1e-a0ba-fd572b5ecf4a" />
 
 ```bash
 👋 Welcome to Codespaces! You are on a custom image defined in your devcontainer.json file.
