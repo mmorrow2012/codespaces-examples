@@ -9,5 +9,5 @@ echo "docker exec -it nautobot_docker_compose-nautobot-1 nautobot-server creates
 
 
 # URLs (Codespaces auto-forwards)
-echo "Nautobot UI: http://localhost:8082"
+echo "Nautobot UI: http://localhost:8080"
 echo "Nautobot Login User=admin / Password=admin"
