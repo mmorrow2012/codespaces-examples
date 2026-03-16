@@ -7,7 +7,7 @@
   },
 
   "privileged": true,
-  "forwardPorts": [8082],
+  "forwardPorts": [8080],
   "portsAttributes": {
     "8000": {
       "label": "Nautobot",
