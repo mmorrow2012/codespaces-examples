@@ -57,7 +57,7 @@ RUN DEBUG="true" SECRET_KEY="dummydummydummydummydummydummydummydummydummydummy"
     /opt/netbox/venv/bin/python /opt/netbox/netbox/manage.py collectstatic --no-input
 EOF
 
-cat > /plugin_requirements.txt << 'EOF'
+cat > plugin_requirements.txt << 'EOF'
 netbox-secrets
 netboxlabs-netbox-branching
 netbox-documents
@@ -104,7 +104,6 @@ PLUGINS_CONFIG = {
 EOF
 
 cat >> configuration/configuration.py << 'EOF'
-
 from netbox_branching.utilities import DynamicSchemaDict
 
 DATABASES = DynamicSchemaDict({
