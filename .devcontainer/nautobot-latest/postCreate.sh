@@ -91,3 +91,7 @@ poetry install # Installed Nautobot + Invoke + 100+ dependencies
 eval "$(poetry env activate)"  # Activates current shell (prints source command for eval)
 invoke build
 invoke start
+docker ps
+sleep 60
+invoke restart
+docker ps
