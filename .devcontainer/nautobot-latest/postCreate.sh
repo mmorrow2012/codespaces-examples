@@ -94,8 +94,18 @@ invoke start
 docker ps
 echo "sleep 60..."
 sleep 60
-echo "sleep 60......"
+docker ps
+echo "sleep 60..."
 sleep 60
-echo "sleep 60........."
+docker ps
+echo "sleep 60..."
 sleep 60
-
+docker ps
+echo "sleep 60..."
+sleep 60
+docker ps
+echo "sleep 60..."
+sleep 60
+docker ps
+echo "sleep 60..."
+sleep 60
